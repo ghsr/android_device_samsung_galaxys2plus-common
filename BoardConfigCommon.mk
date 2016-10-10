@@ -49,7 +49,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := ABGR_8888
 TW_THEME := portrait_mdpi
 
 # Hardware rendering
-USE_OPENGL_RENDERER := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 BOARD_USE_MHEAP_SCREENSHOT := true
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
@@ -93,7 +92,6 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.capri
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
-BOARD_CHARGER_SHOW_PERCENTAGE := true
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
 
 # Boot animation

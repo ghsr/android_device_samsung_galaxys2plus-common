@@ -18,7 +18,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := capri
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_galaxys2plus_defconfig
+TARGET_KERNEL_CONFIG := aosp_galaxys2plus_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/galaxys2plus-common
 BOARD_KERNEL_CMDLINE := console=ttyS0,115200n8 mem=832M@0xA2000000 androidboot.console=ttyS0 vc-cma-mem=0/176M@0xCB000000
 BOARD_KERNEL_BASE := 0xa2000000
